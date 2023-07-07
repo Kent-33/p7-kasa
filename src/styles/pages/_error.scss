@@ -1,0 +1,28 @@
+.error {
+    display: flex;
+    width: 100%;
+    flex-direction: column;    
+    align-items: center;
+   
+    > * {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 20rem;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+    li {
+        list-style: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+   .error {
+    h1 {
+        font-size: 8rem;
+    }
+   }
+}

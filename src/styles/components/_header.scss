@@ -1,0 +1,46 @@
+.header {
+    width: calc(100% - 2rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__navigation {
+        list-style: none;
+        display: flex;
+        column-gap: 3rem;
+        li {
+            color: $primaryColor;
+            text-transform: capitalize;
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+
+        a {            
+            text-decoration: unset;
+            border-bottom: 1px solid transparent;
+            transition: 0.3s;
+            
+            &:hover {
+                border-bottom: 1px solid $primaryColor;
+            }
+        }
+    }
+
+    &__logo {
+        max-width: 150px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header {    
+        &__navigation {
+            column-gap: 1.5rem;
+            li {
+                font-size: .875rem;
+            }
+        }
+        &__logo {
+            max-width: 100px;
+        }
+    }
+}

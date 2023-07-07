@@ -1,0 +1,38 @@
+.collapse {
+    width: 100%;
+    font-size: 1.125rem;
+
+    &__title {        
+        width: calc(100% - 2rem);
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        color: $white;
+        background-color: $primaryColor;
+        padding: 0.75rem 1rem;
+        text-transform: capitalize;
+        border-radius: 0.5rem;
+        z-index: 1;
+    }
+
+    &__content {
+        width: calc(100% - 2rem);
+        background-color: $lightgrey;
+        padding: 0.5rem 1rem;
+        transform: translateY(-0.5rem);        
+        border-radius: 0.5rem;
+    }
+
+    &__arrow {
+        transform: rotate(180deg);
+        color: $white;
+        transition: 0.3s;
+    }
+
+    .expand {
+        .collapse__arrow {
+            transform: rotate(0);            
+            transition: 0.3s;
+        }
+    }
+}
