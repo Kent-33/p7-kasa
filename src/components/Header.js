@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 import logo from '../assets/img/logo_kasa.svg'
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -20,4 +20,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Header

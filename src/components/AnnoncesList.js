@@ -1,6 +1,6 @@
-import React from 'react';
-import annonces from '../data/annonces';
-import Card from './Card';
+import React from 'react'
+import annonces from '../data/annonces'
+import Card from './Card'
 
 const AnnoncesList = () => {
     return (
@@ -16,7 +16,7 @@ const AnnoncesList = () => {
                 ))}
             </div>
         </section>
-    );
-};
+    )
+}
 
 export default AnnoncesList;

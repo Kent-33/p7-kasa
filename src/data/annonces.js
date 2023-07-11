@@ -618,4 +618,4 @@ const annonces = [
 	}
 ]
 
-export default annonces;
+export default annonces

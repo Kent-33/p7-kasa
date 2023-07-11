@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const Ratings = ({rate}) => {
-    let result = [];
+    let result = []
     function fillstars()  {
         const resPush = () => {
             let i = 0;        
@@ -14,9 +14,9 @@ const Ratings = ({rate}) => {
                 i++
             }       
         }
-        resPush();
+        resPush()
     }   
-    fillstars();
+    fillstars()
 
     return (
         <div className='annonce__rating'>
@@ -24,7 +24,7 @@ const Ratings = ({rate}) => {
             <i key={`${res}-${index}`} className={res}></i>
            ))}
         </div>
-    );
-};
+    )
+}
 
-export default Ratings;
+export default Ratings

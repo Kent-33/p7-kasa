@@ -1,15 +1,15 @@
 import React from 'react';
-import Slider from '../components/Slider';
-import Tags from '../components/Tags';
-import Ratings from '../components/Ratings';
-import annonces from '../data/annonces';
-import { useParams, useNavigate } from 'react-router-dom';
-import Host from '../components/Host';
-import Collapse from '../components/Collapse';
-import Error from '../pages/Error';
+import { useParams, useNavigate } from 'react-router-dom'
+import Error from '../pages/Error'
+import Slider from '../components/Slider'
+import Tags from '../components/Tags'
+import Ratings from '../components/Ratings'
+import Host from '../components/Host'
+import Collapse from '../components/Collapse'
+import annonces from '../data/annonces'
 
 const Annonce = () => {    
-    const { id_annonce } = useParams();
+    const { id_annonce } = useParams()
     const annonce = annonces.find((annonce) => annonce.id === id_annonce);
     
     const navigate = useNavigate();

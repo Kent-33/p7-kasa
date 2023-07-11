@@ -1,7 +1,7 @@
 import React from 'react'
-import background from '../assets/img/background_about.jpg'
 import Banner from '../components/Banner'
 import Collapse from '../components/Collapse'
+import background from '../assets/img/background_about.jpg'
 import about from '../data/about'
 
 const About = () => {

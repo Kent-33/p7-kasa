@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import logo from '../assets/img/logo_kasa_white.svg'
 
 const Footer = () => {
@@ -10,4 +10,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+export default Footer

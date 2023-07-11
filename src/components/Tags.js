@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Tags = ({tags}) => {
     return (
@@ -7,7 +7,7 @@ const Tags = ({tags}) => {
                 <div className='annonce__tags__tag' key={`${tag}-${index}`}>{tag}</div>
             ))}            
         </div>
-    );
-};
+    )
+}
 
-export default Tags;
+export default Tags

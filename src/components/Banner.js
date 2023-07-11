@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Banner = ({img, title}) => {
     const bannerStyles = {
@@ -9,7 +9,7 @@ const Banner = ({img, title}) => {
         <section className='banner' style={bannerStyles}>
             <h1>{title}</h1>
         </section>
-    );
-};
+    )
+}
 
-export default Banner;
+export default Banner
