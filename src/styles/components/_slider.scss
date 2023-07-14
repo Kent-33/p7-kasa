@@ -32,3 +32,14 @@
         
     }
 }
+
+@media screen and (max-width: 768px) {
+    .slider {
+        &__arrow {
+            font-size: 2rem;
+        }
+        &__count {
+            display: none;
+        }
+    }    
+}

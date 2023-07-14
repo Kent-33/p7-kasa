@@ -4,8 +4,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Annonce from './pages/Annonce'
 import Error from './pages/Error'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Header from './layout/Header'
+import Footer from './layout/Footer'
 
 const App = () => {
   return (
